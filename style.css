@@ -153,7 +153,8 @@
 
 .ex-13-top-white{
   animation-name: full-rotation;
-  animation-duration: 2s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes dissapear {
@@ -180,12 +181,4 @@
 @keyframes white-space-2 {
   0% {left: 60%;}
   100% {left: 10%}
-}
-
-@keyframes full-rotation {
-  0% {left: 0%}
-  50% {left: 100%; transform: rotate(90deg);}
-  100% {transform: rotate(90deg);}
-
-
 }
